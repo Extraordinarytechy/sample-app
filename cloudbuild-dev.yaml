@@ -7,7 +7,7 @@ steps:
     args: ['build', '-t', 'us-central1-docker.pkg.dev/qwiklabs-gcp-02-2aced0f31374/my-repository/sample-app:v1.0', '.']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/qwiklabs-gcp-02-2aced0f31374/my-repository/sample-app:v1.0']
+    args: ['push', 'us-central1-docker.pkg.dev/qwiklabs-gcp-02-2aced0f31374/my-repository/sample-app:v2.0']
 
   - name: 'gcr.io/cloud-builders/kubectl'
     id: 'Deploy'
